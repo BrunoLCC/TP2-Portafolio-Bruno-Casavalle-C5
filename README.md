@@ -13,31 +13,6 @@ Portfolio personal desarrollado como Trabajo Práctico 2. El sitio presenta dist
 - React Router DOM
 - CSS
 
-## Requisitos
-
-- Node.js y npm instalados
-
-## Instalación y ejecución
-
-1. Clonar el repositorio:
-
-   ```bash
-   git clone https://github.com/BrunoLCC/TP2-Portafolio-Bruno-Casavalle-C5.git
-   ```
-
-2. Entrar a la carpeta e instalar las dependencias:
-
-   ```bash
-   cd TP2-Portafolio-Bruno-Casavalle-C5
-   npm install
-   ```
-
-3. Iniciar el servidor local:
-
-   ```bash
-   npm run dev
-   ```
-
 ## Secciones
 
 - Inicio
