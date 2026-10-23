@@ -1,19 +1,53 @@
-# React + Vite
+# Portfolio de Bruno Casavalle
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portfolio personal desarrollado como Trabajo Práctico 2. El sitio presenta distintas secciones y permite navegar entre ellas sin recargar la página.
 
-Currently, two official plugins are available:
+**Estudiante:** Bruno Casavalle
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**Comisión:** C5
 
-## React Compiler
+## Tecnologías
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+- React y JavaScript (JSX)
+- Vite
+- React Router DOM
+- CSS
 
-Note: This will impact Vite dev & build performances.
-You can also try [the experimental native React Compiler support in plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md#rust-react-compiler) by using `compiler: true` in the plugin options instead of using the Babel plugin.
+## Requisitos
 
-## Expanding the ESLint configuration
+- Node.js y npm instalados
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Instalación y ejecución
+
+1. Clonar el repositorio:
+
+   ```bash
+   git clone https://github.com/BrunoLCC/TP2-Portafolio-Bruno-Casavalle-C5.git
+   ```
+
+2. Entrar a la carpeta e instalar las dependencias:
+
+   ```bash
+   cd TP2-Portafolio-Bruno-Casavalle-C5
+   npm install
+   ```
+
+3. Iniciar el servidor local:
+
+   ```bash
+   npm run dev
+   ```
+
+## Secciones
+
+- Inicio
+- Sobre mí
+- Habilidades
+- Proyectos
+- Contacto
+
+Los proyectos que aparecen son ejemplos de práctica. Antes de publicar el portfolio, conviene reemplazarlos por proyectos propios y agregar un correo de contacto personal.
+
+## Repositorio
+
+https://github.com/BrunoLCC/TP2-Portafolio-Bruno-Casavalle-C5
