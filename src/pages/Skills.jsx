@@ -2,9 +2,10 @@ import SkillCard from '../components/SkillCard'
 
 const skills = [
   {
-    name: 'HTML',
-    level: 'En práctica',
-    description: 'Estructurar contenido con etiquetas claras y semánticas.',
+    name: 'Liquid',
+    level: 'Trabajando con Shopify',
+    description:
+      'Lenguaje de plantillas que utilizo para trabajar con tiendas Shopify.',
   },
   {
     name: 'CSS',

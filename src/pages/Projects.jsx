@@ -25,6 +25,14 @@ const projects = [
     extra:
       'La navegación utiliza rutas y componentes reutilizables; el menú lateral permanece visible al cambiar de sección.',
   },
+  {
+    title: 'Trabajo con Shopify',
+    description:
+      'Experiencia trabajando con Shopify y usando Liquid en el contexto de tiendas online.',
+    technologies: ['Shopify', 'Liquid'],
+    extra:
+      'En este trabajo sigo aprendiendo cómo se organizan y personalizan las plantillas de una tienda Shopify.',
+  },
 ]
 
 function Projects() {
@@ -37,9 +45,8 @@ function Projects() {
         <span>aprender haciendo.</span>
       </h1>
       <p className="page-lead">
-        Estos son ejemplos de práctica para mostrar el tipo de cosas que puedo
-        construir mientras sigo aprendiendo. Puedo reemplazarlos por trabajos
-        propios a medida que avance.
+        Estos son ejemplos de práctica y trabajo para mostrar las herramientas
+        con las que estoy aprendiendo y ganando experiencia.
       </p>
 
       <div className="project-grid">
