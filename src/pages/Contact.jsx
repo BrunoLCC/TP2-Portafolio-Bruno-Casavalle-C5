@@ -9,7 +9,7 @@ function Contact() {
       </h1>
       <p className="descripcion">
         Si querés conocer más sobre mi trabajo o compartir una propuesta, podés
-        encontrarme en GitHub. También puedo agregar aquí mi correo personal.
+        encontrarme en GitHub o escribirme por correo electrónico.
       </p>
 
       <div className="rejilla-contacto">
@@ -22,15 +22,11 @@ function Contact() {
           <h2>GitHub</h2>
           <p>github.com/BrunoLCC ↗</p>
         </a>
-        <div className="tarjeta-contacto">
+        <a className="tarjeta-contacto" href="mailto:bcasavalle@gmail.com">
           <h2>Correo electrónico</h2>
-          <p>Agregar mi correo personal antes de publicar el portfolio.</p>
-        </div>
+          <p>bcasavalle@gmail.com ↗</p>
+        </a>
       </div>
-      <p className="descripcion aviso-contacto">
-        Consejo: reemplazá este texto por una dirección de correo que quieras
-        compartir públicamente.
-      </p>
     </section>
   )
 }

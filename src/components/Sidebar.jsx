@@ -34,9 +34,6 @@ function Sidebar() {
         ))}
       </nav>
 
-      <p className="nota-lateral">
-        Un portfolio en construcción, con ganas de seguir aprendiendo.
-      </p>
     </aside>
   )
 }

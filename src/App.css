@@ -85,21 +85,6 @@
   font-size: 11px;
 }
 
-.nota-lateral {
-  margin-top: auto;
-  padding-top: 30px;
-  color: #d1dbea;
-  font-size: 12px;
-  line-height: 1.7;
-}
-
-.nota-lateral span {
-  display: block;
-  margin-bottom: 8px;
-  color: var(--color-orange);
-  font-size: 18px;
-}
-
 .contenido-principal {
   display: flex;
   flex: 1;
@@ -430,10 +415,6 @@ a.tarjeta-contacto:hover {
   font-size: 13px;
 }
 
-.aviso-contacto {
-  margin-top: 20px !important;
-}
-
 .pagina-no-encontrada {
   padding-top: 80px;
 }
@@ -450,8 +431,7 @@ a.tarjeta-contacto:hover {
     padding: 18px 20px 16px;
   }
 
-  .introduccion-lateral,
-  .nota-lateral {
+  .introduccion-lateral {
     display: none;
   }
 
