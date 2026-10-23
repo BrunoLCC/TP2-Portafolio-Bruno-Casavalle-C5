@@ -10,31 +10,31 @@ const navigationItems = [
 
 function Sidebar() {
   return (
-    <aside className="sidebar">
-      <Link className="brand" to="/" aria-label="Portfolio de Bruno, inicio">
-        <span className="brand-mark">BC</span>
-        <span className="brand-name">Bruno Casavalle</span>
+    <aside className="menu-lateral">
+      <Link className="marca" to="/" aria-label="Portfolio de Bruno, inicio">
+        <span className="iniciales-marca">BC</span>
+        <span className="nombre-marca">Bruno Casavalle</span>
       </Link>
 
-      <p className="sidebar-intro">Mi espacio en la web</p>
+      <p className="introduccion-lateral">Mi espacio en la web</p>
 
-      <nav className="navigation" aria-label="Navegación principal">
+      <nav className="navegacion" aria-label="Navegación principal">
         {navigationItems.map((item) => (
           <NavLink
             key={item.path}
             to={item.path}
             end={item.end}
             className={({ isActive }) =>
-              isActive ? 'navigation-link active' : 'navigation-link'
+              isActive ? 'enlace-navegacion activo' : 'enlace-navegacion'
             }
           >
-            <span className="navigation-number">{item.number}</span>
+            <span className="numero-navegacion">{item.number}</span>
             <span>{item.label}</span>
           </NavLink>
         ))}
       </nav>
 
-      <p className="sidebar-note">
+      <p className="nota-lateral">
         Un portfolio en construcción, con ganas de seguir aprendiendo.
       </p>
     </aside>

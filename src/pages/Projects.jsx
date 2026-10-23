@@ -38,18 +38,18 @@ const projects = [
 function Projects() {
   return (
     <section>
-      <p className="page-kicker">Ideas y práctica</p>
-      <h1 className="page-title">
+      <p className="subtitulo">Ideas y práctica</p>
+      <h1 className="titulo">
         Proyectos para
         <br />
         <span>aprender haciendo.</span>
       </h1>
-      <p className="page-lead">
+      <p className="descripcion">
         Estos son ejemplos de práctica y trabajo para mostrar las herramientas
         con las que estoy aprendiendo y ganando experiencia.
       </p>
 
-      <div className="project-grid">
+      <div className="rejilla-proyectos">
         {projects.map((project, index) => (
           <ProjectCard
             key={project.title}

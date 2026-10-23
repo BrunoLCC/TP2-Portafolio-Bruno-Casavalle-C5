@@ -37,19 +37,19 @@ const skills = [
 function Skills() {
   return (
     <section>
-      <p className="page-kicker">Lo que estoy aprendiendo</p>
-      <h1 className="page-title">
+      <p className="subtitulo">Lo que estoy aprendiendo</p>
+      <h1 className="titulo">
         Herramientas para
         <br />
         <span>seguir creando.</span>
       </h1>
-      <p className="page-lead">
+      <p className="descripcion">
         Este listado muestra tecnologías que estoy empezando a usar o con las
         que practico. Los niveles reflejan mi proceso actual, no una
         certificación.
       </p>
 
-      <div className="skill-grid">
+      <div className="rejilla-habilidades">
         {skills.map((skill) => (
           <SkillCard
             key={skill.name}

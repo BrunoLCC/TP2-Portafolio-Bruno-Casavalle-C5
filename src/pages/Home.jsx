@@ -3,34 +3,34 @@ import { Link } from 'react-router-dom'
 function Home() {
   return (
     <>
-      <section className="home-intro">
-        <div className="home-mark" aria-hidden="true">
+      <section className="presentacion">
+        <div className="iniciales" aria-hidden="true">
           BC
         </div>
-        <p className="page-kicker">Portfolio personal · Comisión C5</p>
-        <h1 className="page-title">
+        <p className="subtitulo">Portfolio personal · Comisión C5</p>
+        <h1 className="titulo">
           Hola, soy <span>Bruno Casavalle,</span>
           <br />
           estudiante de la Tecnicatura en Programación de la UTN.
         </h1>
-        <p className="page-lead">
+        <p className="descripcion">
           En este espacio comparto un poco sobre mi formación, las herramientas
           que estoy aprendiendo y algunos proyectos de práctica.
         </p>
-        <div className="action-links">
-          <Link className="button" to="/projects">
+        <div className="enlaces">
+          <Link className="boton" to="/projects">
             Ver mis proyectos
           </Link>
-          <Link className="button button-secondary" to="/about">
+          <Link className="boton boton-secundario" to="/about">
             Conocerme
           </Link>
         </div>
       </section>
 
-      <section className="page-section">
-        <p className="page-kicker">Un poco de contexto</p>
-        <h2 className="section-heading">¿Qué vas a encontrar?</h2>
-        <div className="info-card">
+      <section className="seccion">
+        <p className="subtitulo">Un poco de contexto</p>
+        <h2 className="titulo-seccion">¿Qué vas a encontrar?</h2>
+        <div className="tarjeta">
           <p>
             Este sitio es una continuación de mi portfolio y una oportunidad
             para practicar React. La navegación está organizada en distintas

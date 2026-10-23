@@ -1,9 +1,9 @@
 function SkillCard({ name, level, description }) {
   return (
-    <article className="skill-card">
-      <div className="skill-card-top">
+    <article className="tarjeta-habilidad">
+      <div className="encabezado-habilidad">
         <h2>{name}</h2>
-        <span className="skill-level">{level}</span>
+        <span className="nivel-habilidad">{level}</span>
       </div>
       <p>{description}</p>
     </article>
