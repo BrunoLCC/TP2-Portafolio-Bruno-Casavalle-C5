@@ -35,7 +35,6 @@ function Sidebar() {
       </nav>
 
       <p className="sidebar-note">
-        <span aria-hidden="true">✳</span>
         Un portfolio en construcción, con ganas de seguir aprendiendo.
       </p>
     </aside>

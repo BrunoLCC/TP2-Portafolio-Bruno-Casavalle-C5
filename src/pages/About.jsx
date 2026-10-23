@@ -7,9 +7,9 @@ function About() {
         <br />y <span>seguir creciendo.</span>
       </h1>
       <p className="page-lead">
-        Soy Bruno Casavalle y estoy formándome en desarrollo web. Me interesa
-        entender cómo se construyen las páginas y convertir ideas en
-        experiencias simples de usar.
+        Soy Bruno Casavalle, estudiante de la Tecnicatura en Programación de la
+        UTN. Me interesa entender cómo se construyen las páginas y convertir
+        ideas en experiencias simples de usar.
       </p>
 
       <div className="page-section info-card">
@@ -27,7 +27,9 @@ function About() {
         <ul className="detail-list">
           <li>
             <span className="detail-label">Formación</span>
-            <span className="detail-value">Estudiante de desarrollo web</span>
+            <span className="detail-value">
+              Tecnicatura en Programación · UTN
+            </span>
           </li>
           <li>
             <span className="detail-label">Intereses</span>

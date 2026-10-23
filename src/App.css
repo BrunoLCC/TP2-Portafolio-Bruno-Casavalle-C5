@@ -17,7 +17,7 @@
   min-height: 100vh;
   padding: 38px 30px;
   color: var(--color-white);
-  background: var(--color-green);
+  background: var(--color-navy);
 }
 
 .brand {
@@ -34,7 +34,7 @@
   height: 42px;
   place-items: center;
   border-radius: 14px;
-  color: var(--color-green);
+  color: var(--color-navy);
   background: var(--color-orange);
   font-family: var(--font-heading);
   font-size: 16px;
@@ -49,7 +49,7 @@
 
 .sidebar-intro {
   margin: 62px 0 24px;
-  color: #c8d7ce;
+  color: #d1dbea;
   font-size: 12px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -67,7 +67,7 @@
   min-height: 48px;
   padding: 0 14px;
   border-radius: 10px;
-  color: #d5e0d9;
+  color: #dce5f0;
   font-size: 14px;
   text-decoration: none;
   transition: color 160ms ease, background-color 160ms ease;
@@ -80,7 +80,7 @@
 }
 
 .navigation-number {
-  color: #a9c2b3;
+  color: #aebfd6;
   font-family: var(--font-heading);
   font-size: 11px;
 }
@@ -88,7 +88,7 @@
 .sidebar-note {
   margin-top: auto;
   padding-top: 30px;
-  color: #c8d7ce;
+  color: #d1dbea;
   font-size: 12px;
   line-height: 1.7;
 }
@@ -125,7 +125,7 @@
 
 .page-kicker {
   margin: 0 0 14px;
-  color: var(--color-green);
+  color: var(--color-navy);
   font-size: 12px;
   font-weight: 700;
   letter-spacing: 0.12em;
@@ -144,7 +144,7 @@
 }
 
 .page-title span {
-  color: var(--color-green);
+  color: var(--color-navy);
 }
 
 .page-lead {
@@ -175,8 +175,8 @@
   place-items: center;
   border: 1px solid #d4dfd5;
   border-radius: 22px;
-  color: var(--color-green);
-  background: var(--color-green-light);
+  color: var(--color-navy);
+  background: var(--color-navy-light);
   font-family: var(--font-heading);
   font-size: 23px;
   font-weight: 700;
@@ -196,10 +196,10 @@
   align-items: center;
   justify-content: center;
   padding: 0 18px;
-  border: 1px solid var(--color-green);
+  border: 1px solid var(--color-navy);
   border-radius: 8px;
   color: var(--color-white);
-  background: var(--color-green);
+  background: var(--color-navy);
   font-size: 13px;
   font-weight: 600;
   text-decoration: none;
@@ -207,12 +207,12 @@
 }
 
 .button:hover {
-  background: #193b2f;
+  background: #10243f;
   transform: translateY(-2px);
 }
 
 .button-secondary {
-  color: var(--color-green);
+  color: var(--color-navy);
   background: transparent;
 }
 
@@ -319,8 +319,8 @@
 .skill-level {
   padding: 5px 9px;
   border-radius: 99px;
-  color: var(--color-green);
-  background: var(--color-green-light);
+  color: var(--color-navy);
+  background: var(--color-navy-light);
   font-size: 10px;
   font-weight: 700;
 }
@@ -377,7 +377,7 @@
   margin-top: auto;
   padding: 8px 0 0;
   border: 0;
-  color: var(--color-green);
+  color: var(--color-navy);
   background: transparent;
   cursor: pointer;
   font-size: 13px;
@@ -386,7 +386,7 @@
 }
 
 .project-toggle:hover {
-  color: #132e24;
+  color: #10243f;
   text-decoration: underline;
   text-underline-offset: 3px;
 }
@@ -414,7 +414,7 @@
 }
 
 a.contact-card:hover {
-  border-color: var(--color-green);
+  border-color: var(--color-navy);
   transform: translateY(-2px);
 }
 

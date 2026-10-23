@@ -13,8 +13,8 @@
   --color-white: #fffefa;
   --color-ink: #282a24;
   --color-muted: #73756e;
-  --color-green: #234c3d;
-  --color-green-light: #e1ebe3;
+  --color-navy: #183153;
+  --color-navy-light: #e6edf5;
   --color-orange: #e88658;
   --color-line: #e4e2da;
   --font-heading: 'Trebuchet MS', Arial, sans-serif;
@@ -47,5 +47,5 @@ a:focus-visible {
 
 ::selection {
   color: var(--color-white);
-  background: var(--color-green);
+  background: var(--color-navy);
 }

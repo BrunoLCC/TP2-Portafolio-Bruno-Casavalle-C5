@@ -9,14 +9,13 @@ function Home() {
         </div>
         <p className="page-kicker">Portfolio personal · Comisión C5</p>
         <h1 className="page-title">
-          Hola, soy <span>Bruno.</span>
+          Hola, soy <span>Bruno Casavalle,</span>
           <br />
-          Estoy aprendiendo a crear para la web.
+          estudiante de la Tecnicatura en Programación de la UTN.
         </h1>
         <p className="page-lead">
-          Soy estudiante de desarrollo web. En este espacio comparto un poco
-          sobre mí, las herramientas que estoy aprendiendo y algunos proyectos
-          de práctica.
+          En este espacio comparto un poco sobre mi formación, las herramientas
+          que estoy aprendiendo y algunos proyectos de práctica.
         </p>
         <div className="action-links">
           <Link className="button" to="/projects">
